@@ -57,6 +57,11 @@ public class Carro {
 		Carro other = (Carro) obj;
 		return ligado == other.ligado && placa == other.placa && rodas == other.rodas;
 	}
+
+	@Override
+	public String toString() {
+		return "Carro [ligado=" + ligado + ", rodas=" + rodas + ", placa=" + placa + "]";
+	}
 	
 	
 
